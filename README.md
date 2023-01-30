@@ -28,3 +28,7 @@ Extension 2 : Hijri calendar fixed effects
   3. We ran the regressions in Stata using "hijri_df.dta" in the following file --> "stata_extension_hijri_FE.do"
   
   Extension 3 : Twitter data
+    1. Using Jupyter notebooks, we ran the "tweet.ipynb" file and stored the result in "tweet.csv".
+    2. We merged the author's data frame "datafile.csv" and "tweet.csv" using Jupyter notebooks, using the following file : twitter_merge.ipynb"
+    3. The resulted merged data frame is "data_tweet_new.dta"
+    4. We ran "data_tweet_new.dta" in Stata, with the file : "stata_extension_tweet.do"
